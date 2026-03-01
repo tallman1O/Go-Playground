@@ -1,6 +1,10 @@
 package main
 
+import "fmt"
+
 var c, pyhon, java bool
+
+const Pi = 3.14
 
 func main() {
 
@@ -8,6 +12,8 @@ func main() {
 	a := 7 // same as var a int = 7
 
 	println(a, b, c, pyhon, java)
+	fmt.Printf("%T\n", a)
+	fmt.Println(Pi)
 }
 
 // Rules :
